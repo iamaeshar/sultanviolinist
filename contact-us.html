@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Including Head Links -->
+    <?php include('inc/head.html'); ?>
+
+    <!-- Title -->
+    <title>Sultan - Contact us</title>
+
+    <link rel="stylesheet" type="text/css" href="css/aboutstyle.css" />
+
+    <style>
+        #contact-us-sec .contact {
+            padding: 4%;
+            height: 400px;
+        }
+
+        #contact-us-sec .col-md-3 {
+            color: #fff;
+            background-color: #212529;
+            padding: 4%;
+            /* display: flex;
+            align-items: center; */
+        }
+
+        #contact-us-sec .contact-info {
+            margin-top: 10%;
+            text-align: center;
+        }
+
+
+        #contact-us-sec .contact-info img {
+            margin-bottom: 15%;
+        }
+
+        #contact-us-sec .contact-info h2 {
+            margin-bottom: 10%;
+        }
+
+        @media(max-width: 768px) {
+            #contact-us-sec .contact-info {
+                margin-top: 2%;
+                text-align: center;
+            }
+
+            #contact-us-sec .contact-info img {
+                margin-bottom: 5%;
+            }
+
+            #contact-us-sec .contact-info h2 {
+                margin-bottom: 6%;
+            }
+
+            #contact-us-sec .row>div {
+                margin-bottom: 0px;
+            }
+
+            #contact-us-sec .col-md-3 {
+                padding: 8%;
+            }
+        }
+
+        #contact-us-sec .col-md-9 {
+            background: #fff;
+            padding: 3%;
+            border-top-right-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+        }
+
+        #contact-us-sec .contact-form label {
+            font-weight: 600;
+        }
+
+        #contact-us-sec .contact-form button {
+            background: #25274d;
+            color: #fff;
+            font-weight: 600;
+            width: 25%;
+        }
+
+        #contact-us-sec .contact-form .btn:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #contact-us-sec .contact-form button:focus {
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <?php include('components/navbar.html'); ?>
+
+    <!-- Banner -->
+    <section id="banner-sec">
+        <div class="banner-text">
+            <div class="banner-text-heading">
+                <h2 class="d-inline bg-black text-white p-3">
+                    HUMMA - THE VOILIN COVER
+                </h2>
+            </div>
+            <div class="banner-text-footer pull-right">
+                <h5 class="mt-5 mr-4"><a class="text-white text-shadow" href="#">WATCH NOW</a></h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- About US -->
+    <section id="contact-us-sec">
+        <!-- <br /><br />
+        <h2 class="global-margin">Contact us</h2> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="contact-info">
+                        <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image" />
+                        <h2>Contact Us</h2>
+                        <h4>We would love to hear from you !</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form section-padding">
+                        <div class="form-group">
+                            <label class="control-label" for="fname">First Name:</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name"
+                                name="fname">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="lname">Last Name:</label>
+                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name"
+                                name="lname">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="comment">Comment:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-left">
+                        <h4>Office Address</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <?php include('components/footer.html'); ?>
+</body>
+
+</html>

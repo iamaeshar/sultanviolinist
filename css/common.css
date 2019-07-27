@@ -1,0 +1,126 @@
+/* Fonts Families */
+
+@font-face {
+    font-family: cocogooseDemiBold;
+    src: url('../fonts/cocogoose-demibold.woff');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: ChampagneAndLimousinesBold;
+    src: url('../fonts/Champagne-and-Limousines-Bold.ttf');
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: cocogooseLight;
+    src: url('../fonts/Cocogoose_Pro_Light-trial.ttf');
+    /* Safari, Android, iOS */
+}
+
+/* Styles */
+
+body {
+    font-family: 'cocogooseDemiBold';
+}
+
+.ChampagneAndLimousinesBoldFont {
+    font-family: ChampagneAndLimousinesBold;
+}
+
+time {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* Theme Backgrounds */
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+/* Theme Colors */
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Fonts */
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+/* Banner */
+
+#banner-sec {
+    min-height: calc(100vh - 76px);
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: calc(50% - 35px);
+    right: 2rem;
+}
+
+@media(max-width: 768px) {
+    .banner-text-heading h2 {
+        font-size: 18px;
+    }
+    #banner-sec {
+        background-color: black;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: calc(50vh - 116px);
+    }
+}
+
+/* Alignment */
+
+.section-padding {
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.global-margin {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.global-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* BS Classes */
+
+.h-30 {
+    height: 30%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+}
+
+@media(max-width: 768px) {
+    .row>div {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+@media(min-width: 768px) {
+    nav {
+        height: 76px;
+    }
+    .navbar-collapse {
+        flex-direction: row-reverse;
+    }
+    .nav-item {
+        padding: 0px 16px;
+    }
+}
+@media(min-width: 768px) and (max-width: 992px) {
+    .nav-item {
+        padding: 0px 4px;
+    }
+}
+/* nav {
+    height: 76px;
+    line-height: 64px;
+}
+.link-hover-effects:hover {
+    background-color: transparent;
+}
+.footer-heading {
+    color: #ffffff;
+} */

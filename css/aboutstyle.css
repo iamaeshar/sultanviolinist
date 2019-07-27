@@ -1,0 +1,57 @@
+#banner-sec {
+    background-image: url('../images/sultan6.jpg');
+}
+
+/* Fixed Backgrounds */
+
+#about-us {
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../images/image2.jpg');
+    background-position: right;
+}
+
+/* Player */
+
+#all-songs {
+    background-color: #eee;
+}
+
+.player-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.current-song {
+    z-index: 2;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.player-container audio {
+    width: 100%;
+}
+
+#playlist .current-song a {
+    color: #fff !important;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px) {
+    .player-container {
+        width: 90%;
+    }
+    #about-us {
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        background-blend-mode: color;
+        padding-right: 0px !important;
+    }
+}

@@ -1,0 +1,38 @@
+footer {
+    position: relative;
+    font-family: cocogooseLight;
+}
+#footer-social-link {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.footer-heading {
+    position: absolute;
+    top: 75px;
+    left: calc(50% - 200px);
+}
+.footer-heading h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.water-mark h1 {
+    opacity: 0.1;
+    color: #ffffff;
+    font-size: 90px;
+}
+.footer-link-text {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+    .water-mark{
+        display: none;
+    }
+    .footer-heading{
+        position: static;
+        text-align: center
+    }
+}

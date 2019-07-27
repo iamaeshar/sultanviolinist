@@ -1,0 +1,16 @@
+#banner-sec {
+    background-image: url('../images/sultan6.jpg');
+}
+
+/* Gallery */
+
+.event-pic-container {
+    height: 200px;
+}
+
+.event-pic-container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}

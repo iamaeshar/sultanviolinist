@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Including Head Links -->
+    <?php include('inc/head.html'); ?>
+
+    <!-- Title -->
+    <title>Sultan - About us</title>
+
+    <link rel="stylesheet" type="text/css" href="css/aboutstyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/aboutstyle.scss" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <?php include('components/navbar.html'); ?>
+
+    <!-- Banner -->
+    <section id="banner-sec">
+        <div class="banner-text">
+            <div class="banner-text-heading">
+                <h2 class="d-inline bg-black text-white p-3">
+                    HUMMA - THE VOILIN COVER
+                </h2>
+            </div>
+            <div class="banner-text-footer pull-right">
+                <h5 class="mt-5 mr-4"><a class="text-white text-shadow" href="#">WATCH NOW</a></h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- About US -->
+    <section id="about-us" class="pr-5 border-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-9 ChampagneAndLimousinesBoldFont font-size-18 section-padding">
+                    <div class="about-us-content">
+                        <p>
+                            Mohammed Masood famously known as Sultan is an Afghan violinist. He was born in Kabul,
+                            Afghanistan on 3rd March 1993. However, now he is based out of the capital city of India,
+                            New
+                            Delhi. He has been honoured with numerous awards and titles. Masood was titled as SULTAN in
+                            2017 by Smt. Gurshaan Kaur, wife of former Prime Minister of India Dr. Manmohan Singh.
+                            Sultan
+                            started playing violin at the age of 11. He has graduated from Afghanistan National
+                            Institute
+                            of Music (ANIM). However, he is now learning Indian Classical Music. He regularly performs
+                            for
+                            the Afghanistan Embassy in Delhi, India. Sultan is also an active participant in the
+                            concerts
+                            with Indian and Afghan artists.
+                        </p>
+                        <p>
+                            Sultan Masood is a fine artist when it comes to playing violin, therefore he has worked
+                            with
+                            various Bollywood artists like Udit Narayan, Sonu Nigam, Nirali Kartik (Mattibaani Mumbai
+                            based
+                            Band), etc. However, he has been honoured as the 'Genius of Violin' by Ministry of Culture
+                            in
+                            Kabul, Afghanistan in 2004. Sultan started playing violin at the age of 11 under the
+                            guidance
+                            of Jalil Sadeed in Western Classical. He started learning Indian Classical at the age of 13
+                            under the guidance of Ustad Ishan Irrfan.
+                        </p>
+                        <p>
+                            Then he went to ANIM to learn from the best teachers in the field like Ustad Haider Azami,
+                            Ustad Basir Hussaini, Zack, Eden Macedom Summer, Tanya, Marc Oyce and William Harvey.
+                            Sultan is
+                            currently in India studying Indian Classical under the guidance of Ustad Aleem Khan in
+                            Gandharva Mahavidyalaya. He has performed with famous Afghan singers like Ustad Altaf
+                            Hussain
+                            Sarahan, Ahmad Fanoos, Farhad Darya, Tawab Arash, Mahmood Kamen and many others. He is also
+                            part of a few Indian bands like Tata Science Indian Octave, Credence.
+                        </p>
+                        <p>
+                            Sultan has performed with a number of International artists like Japanese Pianist Missa
+                            JOHOUSCHI (The peace Ambassador of UNESCO), American violinist like Eden Macdom and Indian
+                            Sarod Master (Masood's Guru) Ustad Irfan Mohammed Khan. Sultan Masood has been a member of
+                            Afghan Music Bands like Sound Studies, Afghan Vision, Voice of Peace, Blue Sky, Aryan Band
+                            and
+                            Afghanistan Youth Orchestra. He has also taught violin at the Afghanistan Child Education
+                            and
+                            Care Organisation (AFCECO).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About US -->
+    <section id="all-songs" class="pb-4">
+        <br /><br />
+        <h2 class="global-margin">All Musics</h2>
+        <div class="player-container section-padding">
+            <audio src="" controls id="audioPlayer" controlslist="nodownload">
+                Sorry, your browser doesn't support html5!
+            </audio>
+            <br />
+            <p class="mb-1 mt-2">Playlist</p>
+            <ul id="playlist" class="list-group">
+                <li class="list-group-item current-song"><a
+                        href="audio/Cheap Thrills - Sia _ Violin Cover _ Sultan Masood.mp3">Exit the
+                        Premises</a></li>
+                <li class="list-group-item"><a
+                        href="audio/Kaun Tujhe - Violin Cover_MS DHONI - THE UNTOLD STORY_Amaal Mallik_Palak Muchhal_Sultan Masood.mp3">Severe
+                        Tire Damage</a></li>
+                <li class="list-group-item"><a
+                        href="audio/Dil Diyan Gallan - Violin Cover _ Tiger Zinda Hai _ Atif Aslam _ Vishal and Shekhar _ Sultan Masood.mp3">Dil Diyan Gallan</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="js/audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+
+    <!-- Footer -->
+    <?php include('components/footer.html'); ?>
+</body>
+
+</html>
